@@ -1,0 +1,21 @@
+body {
+    background: rgb(255, 255, 255); /* Make it white if you need */
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 24px;
+    margin: 0px;
+    height: 100vh;
+  display: block;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 60px;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  bottom: 100px;
+}
