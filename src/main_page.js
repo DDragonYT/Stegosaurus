@@ -9,13 +9,35 @@ document.onkeydown = function (e) {
         }
 }
 
-badButton.addEventListener('click', badButtonClicked);
+function nextStage() {
+    window.localStorage.setItem('level',Number(localStorage.level)+1);
+    window.location.href = "loading0.html";
+}
 
 function badButtonClicked(){
-    alert('wrong');
+    alert('Wrong');
     close();
 }
 
 function goodButtonClicked(){
-    window.location.href = "loading1.html";
+    nextStage();
+}
+
+function checkpassword() {
+    var password = document.getElementById("password");
+    var pass = password.value;
+    if(pass == "WE6822TD6O"){
+    }else{
+        location.reload();
+    }
+  }
+
+function newGame(){
+    window.localStorage.setItem('level',1);
+    window.location.href = "loading0.html";
+}
+
+function continueGame(){
+    console.log(level);
+    window.location.href = "stage"+localStorage.level+".html";
 }

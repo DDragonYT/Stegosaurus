@@ -3,11 +3,14 @@ body {
     color: #000000;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 24px;
-    margin: 0px;
-    height: 100vh;
-  display: block;
-  justify-content: center;
-  box-sizing: border-box;
+    margin: auto;
+    height: 100px;
+    display: block;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 800px;
+    text-align: center;
+
 }
 
 h1{
@@ -18,4 +21,11 @@ h1{
   display: flex;
   justify-content: center;
   bottom: 100px;
+  text-align: right;
 }
+
+p{
+  overflow: inherit;
+  width: 800px;
+}
+

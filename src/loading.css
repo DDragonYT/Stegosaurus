@@ -4,7 +4,6 @@ body {
     padding: 24px;
     margin: 0px;
     height: 100vh;
-    height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,17 +12,16 @@ body {
 }
 
 img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
   top: 100px;
 }
 
 h1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
   bottom: 100px;
+}
+
+h2{
+  font-size: 250px;
+  top: 0px;
 }
