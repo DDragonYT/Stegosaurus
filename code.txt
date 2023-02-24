@@ -7,4 +7,11 @@ document.onkeydown = function (e) {
     if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
         return false;
         }
+    if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
+        return false;
+        }
 }
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
